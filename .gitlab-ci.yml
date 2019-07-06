@@ -1,0 +1,36 @@
+image : microsoft/dotnet:latest
+stages:
+  - build
+  - test
+before_script:
+  - "dotnet restore CommandLineParser"
+build:
+ stage: build
+ script:
+  - "dotnet build CommandLineParser"
+ only:
+   - master
+test_xUnit_IntParameterTests:
+ stage: test
+ script: dotnet test CommandLineParser/CommandLineParserXUnitTests --filter IntParameterTests
+test_xUnit_StringParameterTests:
+ stage: test
+ script: dotnet test CommandLineParser/CommandLineParserXUnitTests --filter StringParameterTests
+test_xUnit_ParsedOptionTests:
+ stage: test
+ script: dotnet test CommandLineParser/CommandLineParserXUnitTests --filter ParsedOptionTests
+test_xUnit_ParseResultTests:
+ stage: test
+ script: dotnet test CommandLineParser/CommandLineParserXUnitTests --filter ParseResultTests
+test_xUnit_ParserTests:
+ stage: test
+ script: dotnet test CommandLineParser/CommandLineParserXUnitTests --filter ParserTests
+test_xUnit_ProgramSettingsTests:
+ stage: test
+ script: dotnet test CommandLineParser/CommandLineParserXUnitTests --filter ProgramSettingsTests
+test_MSTest_ParserTests:
+ stage: test
+ script: dotnet test CommandLineParser/CommandLineParserTests --filter ParserTests
+test_MSTest_SettingTests:
+ stage: test
+ script: dotnet test CommandLineParser/CommandLineParserTests --filter SettingTests
