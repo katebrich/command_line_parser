@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IntParameter_LowerUpperBoundViolation" xml:space="preserve">
+    <value>The value for lower bound must be smaller than or equal to the upper bound.</value>
+  </data>
+  <data name="ParseResult_OptionNameNull" xml:space="preserve">
+    <value>Null cannot be passed as option name.</value>
+  </data>
+  <data name="Parser_Parse_ArgumentsNull" xml:space="preserve">
+    <value>Arguments array cannot be null.</value>
+  </data>
+  <data name="Parser_Parse_CmdLineNull" xml:space="preserve">
+    <value>Command line string cannot be null.</value>
+  </data>
+  <data name="Parser_Parse_ReaderNull" xml:space="preserve">
+    <value>The reader object cannot be null</value>
+  </data>
+  <data name="Parser_Parse_SettingsNull" xml:space="preserve">
+    <value>Program settings cannot be null.</value>
+  </data>
+  <data name="ProgramSettings_AddPlainArgument_ArgumentAlreadyAdded" xml:space="preserve">
+    <value>Plain argument at position {0} was already added to program settings.</value>
+  </data>
+  <data name="ProgramSettings_AddPlainArgument_InvalidPosition" xml:space="preserve">
+    <value>Invalid plain argument position:  {0}.</value>
+  </data>
+  <data name="ProgramSettings_AddPlainArgument_NameEmpty" xml:space="preserve">
+    <value>Plain argument name cannot be empty or null.</value>
+  </data>
+  <data name="ProgramSettings_OptionNameIllegalCharacters" xml:space="preserve">
+    <value>Invalid option name. Option name can contain only letters (lowercase and uppercase) of the English alphabet.</value>
+  </data>
+  <data name="ProgramSettings_OptionNameNotDefined" xml:space="preserve">
+    <value>Option must have at least one name:, either long or short.</value>
+  </data>
+  <data name="ProgramSettings_OptionsDependent" xml:space="preserve">
+    <value>Trying to add conflict for dependent options.</value>
+  </data>
+  <data name="ProgramSettings_OptionsInConflict" xml:space="preserve">
+    <value>Trying to add dependency for conflicting options.</value>
+  </data>
+  <data name="ProgramSettings_PlainArgsCountNegative" xml:space="preserve">
+    <value>The number of plain arguments cannot be negative.</value>
+  </data>
+  <data name="ProgramSettings_PlainArgsMinMaxViolation" xml:space="preserve">
+    <value>Minimum number of plain arguments cannot be higher than maximum number.</value>
+  </data>
+  <data name="ProgramSettings_PrintHelp_WriterNull" xml:space="preserve">
+    <value>The writer object cannot be null.</value>
+  </data>
+  <data name="ProgramSettings_ProgramNameNotDefined" xml:space="preserve">
+    <value>Program name cannot be empty or null.</value>
+  </data>
+  <data name="ProgramSettings_SynonymousNames" xml:space="preserve">
+    <value>Synonymous option names (defining the same option) were given.</value>
+  </data>
+  <data name="ProgramSettings_OptionNameDuplicit" xml:space="preserve">
+    <value>Option names may not be duplicit.</value>
+  </data>
+  <data name="StringParameter_ParameterNameNotDefined" xml:space="preserve">
+    <value>Parameter name cannot be empty or null.</value>
+  </data>
+  <data name="StringParameter_TryParse_ValueEmpty" xml:space="preserve">
+    <value>The string value cannot be empty.</value>
+  </data>
+  <data name="Parser_tryParsePlainArgs_ArgumentsSeparator" xml:space="preserve">
+    <value>--</value>
+  </data>
+  <data name="Parser_tryParseOptions_ParameterRegexString" xml:space="preserve">
+    <value>^((?'parameterString'[^-].*)|\'(?'parameterString'.*)\'|([""'])(?'parameterString'.*)([""']))$</value>
+  </data>
+  <data name="Parser_tryParseOptions_SingleOptionRegexString" xml:space="preserve">
+    <value>^(\-{1}(?'optionName'[A-Za-z]{1})|\-{2}(?'optionName'[A-Za-z]{2,}))(={1}(?'parameterString'.+)|(?'parameterString'[0-9]*))$</value>
+  </data>
+  <data name="Parser_tryParseOptions_GroupedOptionsRegexString" xml:space="preserve">
+    <value>^\-{1}(?'optionName'[A-Za-z]{2,})(={1}(?'parameterString'\-?[0-9]+)|(?'parameterString'[0-9]*))$</value>
+  </data>
+  <data name="Parser_dependenciesMet_dependencyUnmet" xml:space="preserve">
+    <value>Dependency unmet. Option {0} is present, therefore {1} must also be present.</value>
+  </data>
+  <data name="Parser_mandatoryOptionsParsed_mandatoryOptionMissing" xml:space="preserve">
+    <value>Mandatory option {0} is missing.</value>
+  </data>
+  <data name="Parser_noConflictingOptions_conflictPresent" xml:space="preserve">
+    <value>Conflicting options present: {0} and {1}.</value>
+  </data>
+  <data name="Parser_plainArgumentsCountAdmissible_illegalNumberArgs" xml:space="preserve">
+    <value>Illegal number of plain arguments.</value>
+  </data>
+  <data name="Parser_tryParseGroupedOptions_InvalidOptionName" xml:space="preserve">
+    <value>Invalid option name: {0}.</value>
+  </data>
+  <data name="Parser_tryParseGroupedOptions_NoParameterValue" xml:space="preserve">
+    <value>No parameter value provided where mandatory: {0}.</value>
+  </data>
+  <data name="Parser_tryParseOptions_InvalidOption" xml:space="preserve">
+    <value>Valid option expected at position {0} (0-based). Instead, found: {1}.</value>
+  </data>
+  <data name="Parser_tryParseSingleOption_InvalidOptionName" xml:space="preserve">
+    <value>Invalid option name: {0}.</value>
+  </data>
+  <data name="Parser_tryParseSingleOption_InvalidParameterValue" xml:space="preserve">
+    <value>Invalid parameter value provided for option: {0}.</value>
+  </data>
+  <data name="Parser_tryParseSingleOption_NoParameterValue" xml:space="preserve">
+    <value>No parameter value provided where mandatory: {0}.</value>
+  </data>
+  <data name="Parser_tryParseSingleOption_TooManyParameterValue" xml:space="preserve">
+    <value>Parameter value provided to option which does not accept parameter: {0}.</value>
+  </data>
+  <data name="Parser_tryParse_NoArguments" xml:space="preserve">
+    <value>No arguments provided.</value>
+  </data>
+</root>
