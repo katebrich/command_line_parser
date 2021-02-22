@@ -3,7 +3,7 @@
 
 This is a C#/.NET API for parsing commands. Its strengths are extensibility, ease of use and clarity. The code is self-explanatory and well-commented, so there is no need for additional documentation. Firstly, take a look at the Examples directory to see the usage.
 
-This project was created for university course Recommended Programming Practices. We worked in teams of two.
+This project was created for university course **Recommended Programming Practices**. We worked in teams of two.
 **The reviews and unit tests were written by other students!** In return, we created the tests and wrote the reviews for them.
 
 The code should be easy to navigate, since all classes and methods are documented. In addition, a general scheme of functionality is included in *CommandLineParser/Examples/Program.cs* and a similar explanation of parsing methods can be found in *CommandLineParser/CommandLineParser/Parser.cs*. Graphical versions of these schemes are included in *api_presentation.pdf* and *progress_presentation.pdf*.
